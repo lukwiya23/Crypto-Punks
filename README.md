@@ -1,15 +1,16 @@
-# Basic Sample Hardhat Project
+RoboPunks NFT Project
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+ It's the Year 3000. Can the RoboPunks NFT save
+     the human race from the destructive rampant NFT
+               speculation ? Mint RoboPunks to find out
 
-Try running some of the following tasks:
+How To Run:
 
 ```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
+git clone
+cd RoboPunksNFT
+npm i
+create .env file and add environment variables
+npm start
+
 ```
