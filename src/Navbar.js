@@ -31,16 +31,25 @@ function Navbar({ accounts, setAccounts }) {
 
             {/* right side - section and connect*/}
             <Flex justify="space-around" align="center" width="40%" padding="30px">
-                <Box margin="0 15px">Mint NFT</Box>
+                <Box margin="0 15px">HOME</Box>
                 <Spacer />
-                <Box margin="0 15px">Connect Wallet</Box>
+                <Box margin="0 15px">ABOUT</Box>
                 <Spacer />
-                <Box margin="0 15px">Team</Box>
+                <Box margin="0 15px">TEAM</Box>
                 <Spacer />
 
                 {/* isConnected*/}
                 {isConnected ? (
-                    <Box margin="0 15px">Connected</Box>
+                    <Button
+                    backgroundColor="#D6517D"
+                    borderRadius="5px"
+                    boxShadow="0 2px 2px 1px #0F0F0F"
+                    color="white"
+                    cursor="pointer"
+                    fontFamily="inherit"
+                    padding="15px"
+                  
+                    margin="0 15px">Connected</Button>
                 ) : (
                     <Button
                     backgroundColor="#D6517D"
